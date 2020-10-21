@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/db33bd7670.js" crossorigin="anonymous"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <script>
+        var container = document.createElement('div')
+        container.classList.add('container', 'bg-light');
+
+        var row1 = document.createElement('div')
+        row1.classList.add('row');
+        row1.setAttribute('style', 'background-color: #565656;');
+
+        var bancol = document.createElement('div')
+        bancol.classList.add('col-12');
+
+        var row2 = document.createElement('div');
+        row2.classList.add('row');
+
+        var col2 = document.createElement('div')
+        col2.classList.add('col-12');
+        col2.innerText = 'N. Damen Avenue, Chicago 99999 | 999-999-9999 | hello@kickresume.com | www.kickresume.com';
+        col2.setAttribute('style', 'text-align:center;');
+
+        var hr = document.createElement('hr');
+
+        var row3 = document.createElement('div');
+        row3.classList.add('row');
+        row3.setAttribute('style', 'text-align:justify;');
+
+
+
+        var col3l = document.createElement('div')
+        col3l.classList.add('col-5', 'order-first');
+        col3l.setAttribute('style', 'padding-left:50px;');
+
+        var rowa = document.createElement('div');
+        rowa.classList.add('row');
+        var cola = document.createElement('div');
+        cola.classList.add('col-12');
+        cola.innerHTML = '<h1><i class="fas fa-user"></i>Profile</h1>';
+
+
+        var rowb = document.createElement('div');
+        rowb.classList.add('row');
+        var colb = document.createElement('div');
+        colb.classList.add('col-12');
+        colb.innerHTML = '<p>Innovative optimized solution seeker.Excited to be at the deployment phase of my new career as a web developer. I am abitious, adventurous, assidious, animated, and an alliteration advocate.</p>';
+
+        var rowc = document.createElement('div');
+        rowc.classList.add('row');
+        var colc = document.createElement('div');
+        colc.classList.add('col-12');
+        colc.innerHTML = '<h1><i class="fas fa-user"></i>Skills</h1>';
+
+        var rowd = document.createElement('div');
+        rowd.classList.add('row');
+        var cold = document.createElement('div');
+        cold.classList.add('col-12');
+        cold.setAttribute('style', 'font-weight:bold');
+        cold.innerHTML = '<p>Technical Skills</p>';
+
+        var rowe = document.createElement('div');
+        rowe.classList.add('row');
+        var colel = document.createElement('div');
+        colel.classList.add('col-6', 'order-first');
+        colel.innerHTML = '<label for="js">JavaScript</label><br><label for="css">CSS</label><br><label for="html">HTML</label><br><label for="react">React</label><br><label for="redux">Redux</label><br><label for="mongo">Mongo</label><br><label for="deployment">Deployment</label>';
+        var coler = document.createElement('div');
+        coler.classList.add('col-6');
+        coler.innerHTML = '<input type="range" id="js" name="js" min="0" max="10" value="7" class="range"><br><input type="range" id="css" name="css" min="0" max="10" value="7" class="range"><br><input type="range" id="html" name="html" min="0" max="10" value="5" class="range"><br><input type="range" id="react" name="react" min="0" max="10" value="5" class="range"><br><input type="range" id="redux" name="redux" min="0" max="10" value="7" class="range"><br><input type="range" id="mongo" name="mongo" min="0" max="10" value="7" class="range"><br><input type="range" id="deployment" name="deployment" min="0" max="10" value="10" class="range">';
+
+        var rowf = document.createElement('div');
+        rowf.classList.add('row');
+        var colf = document.createElement('div');
+        colf.classList.add('col-12');
+        colf.setAttribute('style', 'font-weight:bold');
+        colf.innerHTML = '<p>Additional Skills</p>';
+
+
+        var rowg = document.createElement('div');
+        rowg.classList.add('row');
+        var colgl = document.createElement('div');
+        colgl.classList.add('col-6', 'order-first');
+        colgl.innerHTML = '<label for="pm">Project Management</label><br><label for="recruit">Recruitment</label><br><label for="bd">Business Development</label><br><label for="ed">Editing</label><br><label for="fund">Fundraising</label>';
+        var colgr = document.createElement('div');
+        colgr.classList.add('col-6');
+        colgr.innerHTML = '<input type="range" id="pm" name="pm" min="0" max="10" value="10" class="range"><br><input type="range" id="recruit" name="recruit" min="0" max="10" value="7" class="range"><br><input type="range" id="bd" name="bd" min="0" max="10" value="10" class="range"><br><input type="range" id="ed" name="ed" min="0" max="10" value="7" class="range"><br><input type="range" id="fund" name="fund" min="0" max="10" value="10" class="range"><br>';
+
+        var rowh = document.createElement('div');
+        rowh.classList.add('row');
+        var colh = document.createElement('div');
+        colh.classList.add('col-12');
+        colh.innerHTML = '<h1><i class="fas fa-user"></i>Work experience</h1>';
+
+        var rowi = document.createElement('div');
+        rowi.classList.add('row');
+        var colil = document.createElement('div');
+        colil.classList.add('col-6', 'order-first');
+        colil.setAttribute('style', 'font-weight:bold');
+        colil.innerHTML = '<p>Event Manager</p>';
+        var colir = document.createElement('div');
+        colir.classList.add('col-6');
+        colir.innerHTML = '<p>03/2014 - 02/2017</p>';
+
+        var rowj = document.createElement('div');
+        rowj.classList.add('row');
+        var colj = document.createElement('div');
+        colj.classList.add('col-12');
+        colj.innerHTML = '<p>C3 Presents, Washington DC</p><ul><li>Lead and execute all phases of event planning and production spanning committee recruitment, training, vendor relationships and on-site facilitation.</li><li>Brought new business to the organization through relentless networking and stewardship which helped the company win the bid for the State Department Summit on the Middle East and, the companies largest civic event to date, the United Stateof Women</li><li>Exercise fiscal control over budget creation, tracking and reporting. Collaborate with employees at all organizational levels to advance cohesive operations.</li></ul>';
+
+
+        var col3m = document.createElement('div');
+        col3m.classList.add('col-2');
+
+
+        var col3r = document.createElement('div')
+        col3r.classList.add('col-5');
+        col3r.setAttribute('style', 'padding-right:50px;');
+
+        var rowk = document.createElement('div');
+        rowk.classList.add('row');
+        var colk = document.createElement('div');
+        colk.classList.add('col-12');
+        colk.innerHTML = '<h1><i class="fas fa-user"></i>Work experience</h1>';
+
+        var rowl = document.createElement('div');
+        rowl.classList.add('row');
+        var colll = document.createElement('div');
+        colll.classList.add('col-6', 'order-first');
+        colll.setAttribute('style', 'font-weight:bold');
+        colll.innerHTML = '<p>Community Relations Manager</p>';
+        var collr = document.createElement('div');
+        collr.classList.add('col-6');
+        collr.innerHTML = '<p>06/2011 - 01/2014</p>';
+
+        var rowm = document.createElement('div');
+        rowm.classList.add('row');
+        var colm = document.createElement('div');
+        colm.classList.add('col-12');
+        colm.innerHTML = '<p>Gay & Lesbian Elder Housing, Los Angeles</p><ul><li>Arranging presentations and pitch deck.</li><li>Designing a PR plan and establishing important focus points.</li><li>Designing, creating and managing content across multiple communication platforms.</li><li>Building relationships with key media players.</li></ul>';
+
+        var rown = document.createElement('div');
+        rown.classList.add('row');
+        var coln = document.createElement('div');
+        coln.classList.add('col-12');
+        coln.innerHTML = '<h1><i class="fas fa-user"></i>Education</h1>';
+
+        var rowo = document.createElement('div');
+        rowo.classList.add('row');
+        var colol = document.createElement('div');
+        colol.classList.add('col-6', 'order-first');
+        colol.setAttribute('style', 'font-weight:bold');
+        colol.innerHTML = '<p>Engineering Immersion Program</p>';
+        var color = document.createElement('div');
+        color.classList.add('col-6');
+        color.innerHTML = '<p>11/2018 - 06/2018</p>';
+
+        var rowp = document.createElement('div');
+        rowp.classList.add('row');
+        var colp = document.createElement('div');
+        colp.classList.add('col-12');
+        colp.innerHTML = '<p>Thinkful, Chicago, IL</p><p>Project-focussed intensive program with emphasis on Mongo, Express, React, and JavaScript(MERN) technical stack</p><ul><li>Developed a full-stack web application, "RenewU", using React that allows users to explore various aspects of meditation. User&apos;s progress is stored on a backend created using Node and MongoDB.</li><li>Developed a language learning app, "Foodie Phonetics" using spaced repetition and a linked list data structure. React was used to create the front end components while Node and Mongo were used to create a backend that stores user data.</li><li>Developed a concierge app, "Pley", for individuals looking for curated suggestions when visiting a new place. React was used to develop the front end which includes real-time chat, drag and drop and variety of advanced features. The backend,built using Node, Express, and Mongo, takes advantage of well-developed RESTful API, Geospatial searching, and user authentication with JWT.</li></ul>'
+
+        var rowq = document.createElement('div');
+        rowq.classList.add('row');
+        var colql = document.createElement('div');
+        colql.classList.add('col-6', 'order-first');
+        colql.setAttribute('style', 'font-weight:bold');
+        colql.innerHTML = '<p>BA, English</p>';
+        var colqr = document.createElement('div');
+        colqr.classList.add('col-6');
+        colqr.innerHTML = '<p>09/2001 - 09/2005</p>';
+
+        var rowr = document.createElement('div');
+        rowr.classList.add('row');
+        var colr = document.createElement('div');
+        colr.classList.add('col-12');
+        colr.innerHTML = '<p>University of California, Los Angeles</p>';
+
+
+        rowr.append(colr);
+        rowq.append(colql, colqr);
+        rowp.append(colp);
+        rowo.append(colol, color);
+        rown.append(coln);
+        rowm.append(colm);
+        rowl.append(colll, collr);
+        rowk.append(colk);
+        col3r.append(rowk, rowl, rowm, rown, rowo, rowp, rowq, rowr);
+        rowj.append(colj);
+        rowi.append(colil, colir);
+        rowh.append(colh);
+        rowg.append(colgl, colgr);
+        rowf.append(colf);
+        rowe.append(colel, coler);
+        rowd.append(cold);
+        rowc.append(colc);
+        rowb.append(colb);
+        rowa.append(cola);
+        col3l.append(rowa, rowb, rowc, rowd, rowe, rowf, rowg, rowh, rowi, rowj);
+        row3.append(col3l, col3m, col3r);
+        row1.append(bancol);
+        row2.append(col2);
+        container.append(row1, row2, hr, row3);
+        document.body.append(container);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
